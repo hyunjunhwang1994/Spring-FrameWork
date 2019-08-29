@@ -1,9 +1,9 @@
-
-
+아래의 방법처럼 사용하는지는 모르겠으나 
+@RequestMapping URL주소에 대해서 삽질중에 포스팅.
 
 ```java
 
-  // 정상적인 HOME URL 주소로 Request가 올때 반응!
+  // 정상적인 HOME URL 주소로 Request가 올때.
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
