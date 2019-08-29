@@ -19,7 +19,7 @@
 	}
 	
 // /** 를 사용할 경우, /...  ,  /.../...  , /.../.../.. 등 모두 적용됨!
-// 이상한 주소로 Request가 온 경우 에러 페이ㅏ지
+// 이상한 주소로 Request가 온 경우 처리할 페이지 ( errorPage or Home )
 	@RequestMapping("/**")
 	public String error() {
 		
