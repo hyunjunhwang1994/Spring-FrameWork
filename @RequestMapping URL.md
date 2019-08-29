@@ -1,5 +1,5 @@
 아래의 방법처럼 사용하는지는 모르겠으나 
-@RequestMapping URL주소에 대해서 삽질중에 포스팅.
+@RequestMapping URL주소에 대해서 삽질중에 정리하고자 글을 씀.
 
 ```java
 
