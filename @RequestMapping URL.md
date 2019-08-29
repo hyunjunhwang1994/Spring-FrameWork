@@ -1,6 +1,9 @@
 아래의 방법처럼 사용하는지는 모르겠으나 
 @RequestMapping URL주소에 대해서 삽질중에 정리하고자 글을 씀.
 
+네이버의 경우 https://www.naver.com/qqwrqwr/azsz 와 같이 이상한 주소 입력시,
+친절한 에러페이지를 띄운다.
+
 ```java
 
 // 정상적인 HOME URL 주소로 Request가 올때.
