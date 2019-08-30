@@ -6,6 +6,7 @@
 
 물론 web.xml에 400번대 error시 페이지 이동을 시킬수도 있다.
 
+```
 // 정상적인 HOME URL 주소로 Request가 올때.
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
