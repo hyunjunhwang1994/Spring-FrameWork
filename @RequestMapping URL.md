@@ -4,7 +4,7 @@
 네이버의 경우 https://www.naver.com/qqwrqwr/azsz 와 같이 이상한 주소 입력시,
 친절한 에러페이지를 띄운다.
 
-```java
+물론 web.xml에 400번대 error시 페이지 이동을 시킬수도 있다.
 
 // 정상적인 HOME URL 주소로 Request가 올때.
 	@RequestMapping(value = "/", method = RequestMethod.GET)
